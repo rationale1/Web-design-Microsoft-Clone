@@ -235,6 +235,42 @@ ul {
 }
 /*End of Links */
 
+/* Footer */
+.footer {
+  background-color: #f2f2f2;
+  color: #616161;
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer div {
+  display: flex;
+  align-items: center;
+}
+
+.footer div span {
+  margin-left: 10px;
+}
+
+.footer li {
+  margin-right: 30px;
+}
+/* End of Footer */
+
 /* Extra styling for the home-cards images  */
 .home-cards img {
   box-shadow: 0px 5px 5px rgba(104, 104, 104, 0.9);
