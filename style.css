@@ -152,3 +152,10 @@ ul {
   color: red;
 }
 /* End of Home Cards 1  */
+
+/* Xbox  */
+.xbox {
+  border: 1px solid green;
+  margin-top: 40px;
+}
+/* End of Xbox  */
