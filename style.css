@@ -155,7 +155,19 @@ ul {
 
 /* Xbox  */
 .xbox {
-  border: 1px solid green;
   margin-top: 40px;
+  height: 350px;
+  width: 100%;
+  background: url(./images/images-1.jpg) center center/cover no-repeat;
+}
+
+.content {
+  width: 40%;
+  padding: 90px 0 0 30px;
+  font-weight: 700;
+}
+
+.xbox p {
+  margin: 10px 0 20px;
 }
 /* End of Xbox  */
