@@ -29,6 +29,15 @@ ul {
   margin: auto;
 }
 
+.dark {
+  color: #fff;
+}
+
+.dark .btn {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
 /* Nav */
 .main-nav {
   /* border: 1px solid green; */
@@ -168,10 +177,22 @@ ul {
   font-weight: 700;
 }
 
-.xbox p {
+.xbox p,
+.carbon p {
   margin: 10px 0 20px;
 }
 /* End of Xbox  */
 
-/* End of Xbox  */
-/* End of Xbox  */
+/* Carbon Section  */
+.carbon {
+  margin-top: 20px;
+  height: 350px;
+  width: 100%;
+  background: url(./images/images-1.jpg) center center/cover no-repeat;
+}
+
+.carbon .content {
+  width: 55%;
+  padding: 100px 0 0 30px;
+}
+/* Carbon Section */
