@@ -37,6 +37,7 @@ ul {
   align-items: center;
   /* height: 60px; */
   height: 3.75em;
+  flex-wrap: wrap;
 }
 
 .main-nav img {
@@ -48,6 +49,7 @@ ul {
 
 .main-nav ul {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .main-nav ul.main-menu {
@@ -68,8 +70,9 @@ ul {
   border-bottom: 2px solid #262626;
 }
 
-.main-nav ul.right-menu {
+.main-nav ul.right-menu a {
   /* border: 1px solid green; */
+  color: red;
 }
 
 /* End of Nav */
