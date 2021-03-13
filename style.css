@@ -195,4 +195,22 @@ ul {
   width: 55%;
   padding: 100px 0 0 30px;
 }
-/* Carbon Section */
+/*End of Carbon Section */
+
+/* Follow Section */
+.follow {
+  margin: 30px 0 30px;
+  display: flex;
+  align-items: center;
+}
+
+.follow * {
+  margin-right: 10px;
+}
+
+/*End of  Follow Section */
+
+/* Extra styling for the home-cards images  */
+.home-cards img {
+  box-shadow: 0px 5px 5px rgba(104, 104, 104, 0.9);
+}
